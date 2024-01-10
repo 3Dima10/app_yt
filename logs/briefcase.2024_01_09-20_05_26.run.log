@@ -1,0 +1,219 @@
+Date/Time:       2024-01-09 20:05:27 
+Command line:    D:\python\app\venv\Scripts\briefcase run
+
+OS Release:      Windows 10
+OS Version:      10.0.22621
+Architecture:    AMD64
+Platform:        Windows-10-10.0.22621-SP0
+
+Python exe:      D:\python\app\venv\Scripts\python.exe
+Python version:  3.10.10 (tags/v3.10.10:aad5f6a, Feb  7 2023, 17:20:36) [MSC v.1929 64 bit (AMD64)]
+Virtual env:     True
+Conda env:       False
+
+Briefcase:       0.3.16
+Target platform: windows
+Target format:   app
+
+Environment Variables:
+    ALLUSERSPROFILE=C:\ProgramData
+    APPDATA=C:\Users\Yepo\AppData\Roaming
+    CHROME_CRASHPAD_PIPE_NAME=\\.\pipe\crashpad_14368_EGQVUOZQYKIFLWII
+    COLORTERM=truecolor
+    COMMONPROGRAMFILES=C:\Program Files\Common Files
+    COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+    COMMONPROGRAMW6432=C:\Program Files\Common Files
+    COMPUTERNAME=DESKTOP-RACMC10
+    COMSPEC=C:\Windows\system32\cmd.exe
+    DRIVERDATA=C:\Windows\System32\Drivers\DriverData
+    EFC_8576=1
+    FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+    FPS_BROWSER_USER_PROFILE_STRING=Default
+    GIT_ASKPASS=********************
+    HOMEDRIVE=C:
+    HOMEPATH=\Users\Yepo
+    LANG=ru_RU.UTF-8
+    LOCALAPPDATA=C:\Users\Yepo\AppData\Local
+    LOGONSERVER=\\DESKTOP-RACMC10
+    NUMBER_OF_PROCESSORS=4
+    ONEDRIVE=C:\Users\Yepo\OneDrive
+    ONEDRIVECONSUMER=C:\Users\Yepo\OneDrive
+    ORIGINAL_XDG_CURRENT_DESKTOP=undefined
+    OS=Windows_NT
+    PATH=D:\python\app\venv\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\dotnet\;C:\Program Files\PuTTY\;C:\Users\Yepo\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Yepo\AppData\Local\Programs\Python\Python310\;C:\Users\Yepo\AppData\Local\Microsoft\WindowsApps;C:\Users\Yepo\AppData\Local\Programs\Microsoft VS Code\bin;
+    PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    PROCESSOR_ARCHITECTURE=AMD64
+    PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 122 Stepping 1, GenuineIntel
+    PROCESSOR_LEVEL=6
+    PROCESSOR_REVISION=7a01
+    PROGRAMDATA=C:\ProgramData
+    PROGRAMFILES=C:\Program Files
+    PROGRAMFILES(X86)=C:\Program Files (x86)
+    PROGRAMW6432=C:\Program Files
+    PROMPT=(venv) $P$G
+    PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+    PUBLIC=C:\Users\Public
+    SESSIONNAME=Console
+    SYSTEMDRIVE=C:
+    SYSTEMROOT=C:\Windows
+    TEMP=C:\Users\Yepo\AppData\Local\Temp
+    TERM_PROGRAM=vscode
+    TERM_PROGRAM_VERSION=1.85.1
+    TMP=C:\Users\Yepo\AppData\Local\Temp
+    USERDOMAIN=DESKTOP-RACMC10
+    USERDOMAIN_ROAMINGPROFILE=DESKTOP-RACMC10
+    USERNAME=Yepo
+    USERPROFILE=C:\Users\Yepo
+    VIRTUAL_ENV=D:\python\app\venv
+    VIRTUAL_ENV_PROMPT=(venv) 
+    VSCODE_GIT_ASKPASS_EXTRA_ARGS=********************
+    VSCODE_GIT_ASKPASS_MAIN=********************
+    VSCODE_GIT_ASKPASS_NODE=********************
+    VSCODE_GIT_IPC_HANDLE=\\.\pipe\vscode-git-1c2f68b5b4-sock
+    WINDIR=C:\Windows
+    ZES_ENABLE_SYSMAN=1
+    _OLD_VIRTUAL_PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\dotnet\;C:\Program Files\PuTTY\;C:\Users\Yepo\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Yepo\AppData\Local\Programs\Python\Python310\;C:\Users\Yepo\AppData\Local\Microsoft\WindowsApps;C:\Users\Yepo\AppData\Local\Programs\Microsoft VS Code\bin;
+    _OLD_VIRTUAL_PROMPT=$P$G
+
+Briefcase Log:
+[20:05:21]                                                                                                                                                                run.py:231
+           [youtdolw] Starting app...                                                                                                                                     run.py:231
+                                                                                                                                                                   subprocess.py:711
+           >>> Running Command:                                                                                                                                    subprocess.py:712
+           >>>     'D:\python\app\youtdolw\build\youtdolw\windows\app\src\youtdolw.exe'                                                                            subprocess.py:713
+           >>> Working Directory:                                                                                                                                  subprocess.py:720
+           >>>     C:\Users\Yepo                                                                                                                                   subprocess.py:721
+           ===========================================================================                                                                                    run.py:160
+           Log started: 2024-01-09 20:05:21Z                                                                                                                       subprocess.py:681
+           PreInitializing Python runtime...                                                                                                                       subprocess.py:681
+           PythonHome: D:\python\app\youtdolw\build\youtdolw\windows\app\src                                                                                       subprocess.py:681
+           PYTHONPATH:                                                                                                                                             subprocess.py:681
+           - D:\python\app\youtdolw\build\youtdolw\windows\app\src\python310.zip                                                                                   subprocess.py:681
+[20:05:22] - D:\python\app\youtdolw\build\youtdolw\windows\app\src                                                                                                 subprocess.py:681
+           - D:\python\app\youtdolw\build\youtdolw\windows\app\src\app_packages                                                                                    subprocess.py:681
+           - D:\python\app\youtdolw\build\youtdolw\windows\app\src\app                                                                                             subprocess.py:681
+           Configure argc/argv...                                                                                                                                  subprocess.py:681
+           Initializing Python runtime...                                                                                                                          subprocess.py:681
+           Running app module: youtdolw                                                                                                                            subprocess.py:681
+           ---------------------------------------------------------------------------                                                                             subprocess.py:681
+           Application quit abnormally (Exit code -6)!                                                                                                             subprocess.py:681
+           Traceback (most recent call last):                                                                                                                      subprocess.py:681
+             File "runpy.py", line 196, in _run_module_as_main                                                                                                     subprocess.py:681
+             File "runpy.py", line 86, in _run_code                                                                                                                subprocess.py:681
+             File "D:\python\app\youtdolw\build\youtdolw\windows\app\src\app\youtdolw\__main__.py", line 1, in <module>                                            subprocess.py:681
+               from youtdolw.app import main                                                                                                                       subprocess.py:681
+             File "D:\python\app\youtdolw\build\youtdolw\windows\app\src\app\youtdolw\app.py", line 7, in <module>                                                 subprocess.py:681
+               from pytube import YouTube                                                                                                                          subprocess.py:681
+           ModuleNotFoundError: No module named 'pytube'                                                                                                           subprocess.py:681
+[20:05:26] Traceback (most recent call last):                                                                                                                      subprocess.py:681
+             File "\app\youtdolw\__main__.py", line 1, in <module>                                                                                                 subprocess.py:681
+               from youtdolw.app import main                                                                                                                       subprocess.py:681
+             File "\app\youtdolw\app.py", line 7, in <module>                                                                                                      subprocess.py:681
+               from pytube import YouTube                                                                                                                          subprocess.py:681
+           ModuleNotFoundError: No module named 'pytube'                                                                                                           subprocess.py:681
+                                                                                                                                                                   subprocess.py:681
+                                                                                                                                                                      __main__.py:40
+           Problem running app youtdolw.                                                                                                                              __main__.py:41
+
+Main thread traceback:
+╭─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────╮
+│ D:\python\app\venv\lib\site-packages\briefcase\__main__.py:25 in main                                                                                                            │
+│                                                                                                                                                                                  │
+│   22 │   │   command = Command(logger=logger, console=console)                                                                                                                   │
+│   23 │   │   options = command.parse_options(extra=extra_cmdline)                                                                                                                │
+│   24 │   │   command.parse_config(Path.cwd() / "pyproject.toml")                                                                                                                 │
+│ ❱ 25 │   │   command(**options)                                                                                                                                                  │
+│   26 │   except HelpText as e:                                                                                                                                                   │
+│   27 │   │   logger.info()                                                                                                                                                       │
+│   28 │   │   logger.info(str(e))                                                                                                                                                 │
+│                                                                                                                                                                                  │
+│ ╭────────────────────────────────────────────── locals ───────────────────────────────────────────────╮                                                                          │
+│ │       command = <briefcase.platforms.windows.app.WindowsAppRunCommand object at 0x0000021BB237D780> │                                                                          │
+│ │       Command = <class 'briefcase.platforms.windows.app.WindowsAppRunCommand'>                      │                                                                          │
+│ │       console = <briefcase.console.Console object at 0x0000021BB1EF8A90>                            │                                                                          │
+│ │             e = BriefcaseCommandError('Problem running app youtdolw.')                              │                                                                          │
+│ │ extra_cmdline = []                                                                                  │                                                                          │
+│ │        logger = <briefcase.console.Log object at 0x0000021BB1F32020>                                │                                                                          │
+│ │       options = {                                                                                   │                                                                          │
+│ │                 │   'appname': None,                                                                │                                                                          │
+│ │                 │   'update': False,                                                                │                                                                          │
+│ │                 │   'update_requirements': False,                                                   │                                                                          │
+│ │                 │   'update_support': False,                                                        │                                                                          │
+│ │                 │   'update_resources': False,                                                      │                                                                          │
+│ │                 │   'no_update': False,                                                             │                                                                          │
+│ │                 │   'test_mode': False,                                                             │                                                                          │
+│ │                 │   'passthrough': []                                                               │                                                                          │
+│ │                 }                                                                                   │                                                                          │
+│ │        result = 200                                                                                 │                                                                          │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                          │
+│                                                                                                                                                                                  │
+│ D:\python\app\venv\lib\site-packages\briefcase\commands\run.py:302 in __call__                                                                                                   │
+│                                                                                                                                                                                  │
+│   299 │   │                                                                                                                                                                      │
+│   300 │   │   self.verify_app(app)                                                                                                                                               │
+│   301 │   │                                                                                                                                                                      │
+│ ❱ 302 │   │   state = self.run_app(                                                                                                                                              │
+│   303 │   │   │   app,                                                                                                                                                           │
+│   304 │   │   │   test_mode=test_mode,                                                                                                                                           │
+│   305 │   │   │   passthrough=[] if passthrough is None else passthrough,                                                                                                        │
+│                                                                                                                                                                                  │
+│ ╭───────────────────────────────────────────────── locals ──────────────────────────────────────────────────╮                                                                    │
+│ │                 app = <com.example.youtdolw v0.0.1 AppConfig>                                             │                                                                    │
+│ │             appname = None                                                                                │                                                                    │
+│ │         binary_file = WindowsPath('D:/python/app/youtdolw/build/youtdolw/windows/app/src/youtdolw.exe')   │                                                                    │
+│ │           no_update = False                                                                               │                                                                    │
+│ │             options = {}                                                                                  │                                                                    │
+│ │         passthrough = []                                                                                  │                                                                    │
+│ │                self = <briefcase.platforms.windows.app.WindowsAppRunCommand object at 0x0000021BB237D780> │                                                                    │
+│ │               state = None                                                                                │                                                                    │
+│ │       template_file = WindowsPath('D:/python/app/youtdolw/build/youtdolw/windows/app')                    │                                                                    │
+│ │           test_mode = False                                                                               │                                                                    │
+│ │              update = False                                                                               │                                                                    │
+│ │ update_requirements = False                                                                               │                                                                    │
+│ │    update_resources = False                                                                               │                                                                    │
+│ │      update_support = False                                                                               │                                                                    │
+│ ╰───────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                    │
+│                                                                                                                                                                                  │
+│ D:\python\app\venv\lib\site-packages\briefcase\platforms\windows\__init__.py:154 in run_app                                                                                      │
+│                                                                                                                                                                                  │
+│   151 │   │   )                                                                                                                                                                  │
+│   152 │   │                                                                                                                                                                      │
+│   153 │   │   # Start streaming logs for the app.                                                                                                                                │
+│ ❱ 154 │   │   self._stream_app_logs(                                                                                                                                             │
+│   155 │   │   │   app,                                                                                                                                                           │
+│   156 │   │   │   popen=app_popen,                                                                                                                                               │
+│   157 │   │   │   test_mode=test_mode,                                                                                                                                           │
+│                                                                                                                                                                                  │
+│ ╭───────────────────────────────────────────── locals ──────────────────────────────────────────────╮                                                                            │
+│ │         app = <com.example.youtdolw v0.0.1 AppConfig>                                             │                                                                            │
+│ │   app_popen = <Popen: returncode: 4294967290 args: ['D:\\python\\app\\youtdolw\\build\\you...>    │                                                                            │
+│ │      kwargs = {}                                                                                  │                                                                            │
+│ │ passthrough = []                                                                                  │                                                                            │
+│ │        self = <briefcase.platforms.windows.app.WindowsAppRunCommand object at 0x0000021BB237D780> │                                                                            │
+│ │   test_mode = False                                                                               │                                                                            │
+│ ╰───────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                            │
+│                                                                                                                                                                                  │
+│ D:\python\app\venv\lib\site-packages\briefcase\commands\run.py:190 in _stream_app_logs                                                                                           │
+│                                                                                                                                                                                  │
+│   187 │   │   │   │   # If we're monitoring an actual app (not just a log stream),                                                                                               │
+│   188 │   │   │   │   # and the app didn't exit cleanly, surface the error to the user.                                                                                          │
+│   189 │   │   │   │   if popen.returncode != 0:                                                                                                                                  │
+│ ❱ 190 │   │   │   │   │   raise BriefcaseCommandError(f"Problem running app {app.app_name}.")                                                                                    │
+│   191 │   │                                                                                                                                                                      │
+│   192 │   │   except KeyboardInterrupt:                                                                                                                                          │
+│   193 │   │   │   pass  # Catch CTRL-C to exit normally                                                                                                                          │
+│                                                                                                                                                                                  │
+│ ╭────────────────────────────────────────────── locals ──────────────────────────────────────────────╮                                                                           │
+│ │          app = <com.example.youtdolw v0.0.1 AppConfig>                                             │                                                                           │
+│ │ clean_filter = None                                                                                │                                                                           │
+│ │ clean_output = False                                                                               │                                                                           │
+│ │  exit_filter = <function LogFilter.test_filter.<locals>.filter_func at 0x0000021BB5561900>         │                                                                           │
+│ │   log_filter = <briefcase.commands.run.LogFilter object at 0x0000021BB5566980>                     │                                                                           │
+│ │   log_stream = False                                                                               │                                                                           │
+│ │        popen = <Popen: returncode: 4294967290 args: ['D:\\python\\app\\youtdolw\\build\\you...>    │                                                                           │
+│ │         self = <briefcase.platforms.windows.app.WindowsAppRunCommand object at 0x0000021BB237D780> │                                                                           │
+│ │    stop_func = <function RunAppMixin.<lambda> at 0x0000021BB4CDAEF0>                               │                                                                           │
+│ │    test_mode = False                                                                               │                                                                           │
+│ ╰────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                           │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+BriefcaseCommandError: Problem running app youtdolw.

@@ -1,0 +1,277 @@
+Date/Time:       2024-01-10 15:52:26 
+Command line:    D:\python\app\venv\Scripts\briefcase run android
+
+OS Release:      Windows 10
+OS Version:      10.0.22621
+Architecture:    AMD64
+Platform:        Windows-10-10.0.22621-SP0
+
+Python exe:      D:\python\app\venv\Scripts\python.exe
+Python version:  3.10.10 (tags/v3.10.10:aad5f6a, Feb  7 2023, 17:20:36) [MSC v.1929 64 bit (AMD64)]
+Virtual env:     True
+Conda env:       False
+
+Briefcase:       0.3.16
+Target platform: android
+Target format:   gradle
+
+Environment Variables:
+    ALLUSERSPROFILE=C:\ProgramData
+    APPDATA=C:\Users\Yepo\AppData\Roaming
+    CHROME_CRASHPAD_PIPE_NAME=\\.\pipe\crashpad_6408_TKZZKINSWOOJNSCS
+    COLORTERM=truecolor
+    COMMONPROGRAMFILES=C:\Program Files\Common Files
+    COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+    COMMONPROGRAMW6432=C:\Program Files\Common Files
+    COMPUTERNAME=DESKTOP-RACMC10
+    COMSPEC=C:\Windows\system32\cmd.exe
+    DRIVERDATA=C:\Windows\System32\Drivers\DriverData
+    EFC_14700=1
+    FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+    FPS_BROWSER_USER_PROFILE_STRING=Default
+    GIT_ASKPASS=********************
+    HOMEDRIVE=C:
+    HOMEPATH=\Users\Yepo
+    LANG=ru_RU.UTF-8
+    LOCALAPPDATA=C:\Users\Yepo\AppData\Local
+    LOGONSERVER=\\DESKTOP-RACMC10
+    NUMBER_OF_PROCESSORS=4
+    ONEDRIVE=C:\Users\Yepo\OneDrive
+    ONEDRIVECONSUMER=C:\Users\Yepo\OneDrive
+    ORIGINAL_XDG_CURRENT_DESKTOP=undefined
+    OS=Windows_NT
+    PATH=D:\python\app\venv\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\dotnet\;C:\Program Files\PuTTY\;C:\Users\Yepo\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Yepo\AppData\Local\Programs\Python\Python310\;C:\Users\Yepo\AppData\Local\Microsoft\WindowsApps;C:\Users\Yepo\AppData\Local\Programs\Microsoft VS Code\bin;
+    PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    PROCESSOR_ARCHITECTURE=AMD64
+    PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 122 Stepping 1, GenuineIntel
+    PROCESSOR_LEVEL=6
+    PROCESSOR_REVISION=7a01
+    PROGRAMDATA=C:\ProgramData
+    PROGRAMFILES=C:\Program Files
+    PROGRAMFILES(X86)=C:\Program Files (x86)
+    PROGRAMW6432=C:\Program Files
+    PROMPT=(venv) $P$G
+    PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+    PUBLIC=C:\Users\Public
+    SESSIONNAME=Console
+    SYSTEMDRIVE=C:
+    SYSTEMROOT=C:\Windows
+    TEMP=C:\Users\Yepo\AppData\Local\Temp
+    TERM_PROGRAM=vscode
+    TERM_PROGRAM_VERSION=1.85.1
+    TMP=C:\Users\Yepo\AppData\Local\Temp
+    USERDOMAIN=DESKTOP-RACMC10
+    USERDOMAIN_ROAMINGPROFILE=DESKTOP-RACMC10
+    USERNAME=Yepo
+    USERPROFILE=C:\Users\Yepo
+    VIRTUAL_ENV=D:\python\app\venv
+    VIRTUAL_ENV_PROMPT=(venv) 
+    VSCODE_GIT_ASKPASS_EXTRA_ARGS=********************
+    VSCODE_GIT_ASKPASS_MAIN=********************
+    VSCODE_GIT_ASKPASS_NODE=********************
+    VSCODE_GIT_IPC_HANDLE=\\.\pipe\vscode-git-1c2f68b5b4-sock
+    WINDIR=C:\Windows
+    ZES_ENABLE_SYSMAN=1
+    _OLD_VIRTUAL_PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\dotnet\;C:\Program Files\PuTTY\;C:\Users\Yepo\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Yepo\AppData\Local\Programs\Python\Python310\;C:\Users\Yepo\AppData\Local\Microsoft\WindowsApps;C:\Users\Yepo\AppData\Local\Programs\Microsoft VS Code\bin;
+    _OLD_VIRTUAL_PROMPT=$P$G
+
+Briefcase Log:
+[15:52:17] >>> Using JDK at C:\Users\Yepo\AppData\Local\BeeWare\briefcase\Cache\tools\java17                                                                             java.py:261
+           >>> Using Android SDK at C:\Users\Yepo\AppData\Local\BeeWare\briefcase\Cache\tools\android_sdk                                                         android_sdk.py:354
+           >>> Android emulator is already installed.                                                                                                             android_sdk.py:629
+                                                                                                                                                                   subprocess.py:711
+           >>> Running Command:                                                                                                                                    subprocess.py:712
+           >>>     'C:\Users\Yepo\AppData\Local\BeeWare\briefcase\Cache\tools\android_sdk\platform-tools\adb.exe' devices -l                                       subprocess.py:713
+           >>> Working Directory:                                                                                                                                  subprocess.py:720
+           >>>     D:\python\app\youtdolw                                                                                                                          subprocess.py:721
+           >>> Command Output:                                                                                                                                     subprocess.py:737
+           >>>     List of devices attached                                                                                                                        subprocess.py:739
+           >>>     emulator-5554          offline transport_id:1                                                                                                   subprocess.py:739
+           >>>                                                                                                                                                     subprocess.py:739
+           >>> Return code: 0                                                                                                                                      subprocess.py:748
+                                                                                                                                                                   subprocess.py:711
+           >>> Running Command:                                                                                                                                    subprocess.py:712
+           >>>     'C:\Users\Yepo\AppData\Local\BeeWare\briefcase\Cache\tools\android_sdk\platform-tools\adb.exe' -s emulator-5554 emu avd name                    subprocess.py:713
+           >>> Working Directory:                                                                                                                                  subprocess.py:720
+           >>>     D:\python\app\youtdolw                                                                                                                          subprocess.py:721
+           >>> Command Output:                                                                                                                                     subprocess.py:737
+           >>>     beePhone                                                                                                                                        subprocess.py:739
+           >>>                                                                                                                                                     subprocess.py:739
+           >>>     OK                                                                                                                                              subprocess.py:739
+           >>>                                                                                                                                                     subprocess.py:739
+           >>> Return code: 0                                                                                                                                      subprocess.py:748
+                                                                                                                                                                   subprocess.py:711
+           >>> Running Command:                                                                                                                                    subprocess.py:712
+           >>>     'C:\Users\Yepo\AppData\Local\BeeWare\briefcase\Cache\tools\android_sdk\emulator\emulator.exe' -list-avds                                        subprocess.py:713
+           >>> Working Directory:                                                                                                                                  subprocess.py:720
+           >>>     D:\python\app\youtdolw                                                                                                                          subprocess.py:721
+           >>> Command Output:                                                                                                                                     subprocess.py:737
+           >>>     beePhone                                                                                                                                        subprocess.py:739
+           >>> Return code: 0                                                                                                                                      subprocess.py:748
+                                                                                                                                                                 android_sdk.py:1010
+           Select device:                                                                                                                                        android_sdk.py:1011
+                                                                                                                                                                 android_sdk.py:1012
+             1) @beePhone (running emulator)                                                                                                                          console.py:615
+             2) Create a new Android emulator                                                                                                                         console.py:615
+                                                                                                                                                                      console.py:617
+[15:52:23] >                                                                                                                                                          console.py:620
+           >>> User input: 1                                                                                                                                          console.py:620
+                                                                                                                                                                      __main__.py:40
+                                                                                                                                                                      __main__.py:41
+           The device you have selected (emulator-5554) has not had developer options and                                                                             __main__.py:41
+           USB debugging enabled. These must be enabled before a device can be used  as a                                                                             __main__.py:41
+           target for deployment. For details on how to enable Developer Options, visit:                                                                              __main__.py:41
+                                                                                                                                                                      __main__.py:41
+               https://developer.android.com/studio/debug/dev-options#enable                                                                                          __main__.py:41
+                                                                                                                                                                      __main__.py:41
+           Once you have enabled these options on your device, you will be able to select                                                                             __main__.py:41
+           this device as a deployment target.                                                                                                                        __main__.py:41
+                                                                                                                                                                      __main__.py:41
+
+Main thread traceback:
+╭─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────╮
+│ D:\python\app\venv\lib\site-packages\briefcase\__main__.py:25 in main                                                                                                            │
+│                                                                                                                                                                                  │
+│   22 │   │   command = Command(logger=logger, console=console)                                                                                                                   │
+│   23 │   │   options = command.parse_options(extra=extra_cmdline)                                                                                                                │
+│   24 │   │   command.parse_config(Path.cwd() / "pyproject.toml")                                                                                                                 │
+│ ❱ 25 │   │   command(**options)                                                                                                                                                  │
+│   26 │   except HelpText as e:                                                                                                                                                   │
+│   27 │   │   logger.info()                                                                                                                                                       │
+│   28 │   │   logger.info(str(e))                                                                                                                                                 │
+│                                                                                                                                                                                  │
+│ ╭────────────────────────────────────────────── locals ──────────────────────────────────────────────╮                                                                           │
+│ │       command = <briefcase.platforms.android.gradle.GradleRunCommand object at 0x0000015EA41ED780> │                                                                           │
+│ │       Command = <class 'briefcase.platforms.android.gradle.GradleRunCommand'>                      │                                                                           │
+│ │       console = <briefcase.console.Console object at 0x0000015EA3D68A90>                           │                                                                           │
+│ │             e = AndroidDeviceNotAuthorized('emulator-5554')                                        │                                                                           │
+│ │ extra_cmdline = []                                                                                 │                                                                           │
+│ │        logger = <briefcase.console.Log object at 0x0000015EA3DA2020>                               │                                                                           │
+│ │       options = {                                                                                  │                                                                           │
+│ │                 │   'appname': None,                                                               │                                                                           │
+│ │                 │   'update': False,                                                               │                                                                           │
+│ │                 │   'update_requirements': False,                                                  │                                                                           │
+│ │                 │   'update_support': False,                                                       │                                                                           │
+│ │                 │   'update_resources': False,                                                     │                                                                           │
+│ │                 │   'no_update': False,                                                            │                                                                           │
+│ │                 │   'test_mode': False,                                                            │                                                                           │
+│ │                 │   'device_or_avd': None,                                                         │                                                                           │
+│ │                 │   'extra_emulator_args': None,                                                   │                                                                           │
+│ │                 │   'shutdown_on_exit': False,                                                     │                                                                           │
+│ │                 │   ... +1                                                                         │                                                                           │
+│ │                 }                                                                                  │                                                                           │
+│ │        result = 200                                                                                │                                                                           │
+│ ╰────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                           │
+│                                                                                                                                                                                  │
+│ D:\python\app\venv\lib\site-packages\briefcase\commands\run.py:302 in __call__                                                                                                   │
+│                                                                                                                                                                                  │
+│   299 │   │                                                                                                                                                                      │
+│   300 │   │   self.verify_app(app)                                                                                                                                               │
+│   301 │   │                                                                                                                                                                      │
+│ ❱ 302 │   │   state = self.run_app(                                                                                                                                              │
+│   303 │   │   │   app,                                                                                                                                                           │
+│   304 │   │   │   test_mode=test_mode,                                                                                                                                           │
+│   305 │   │   │   passthrough=[] if passthrough is None else passthrough,                                                                                                        │
+│                                                                                                                                                                                  │
+│ ╭────────────────────────────────────────────────────────────── locals ───────────────────────────────────────────────────────────────╮                                          │
+│ │                 app = <com.example.youtdolw v0.0.1 AppConfig>                                                                       │                                          │
+│ │             appname = None                                                                                                          │                                          │
+│ │         binary_file = WindowsPath('D:/python/app/youtdolw/build/youtdolw/android/gradle/app/build/outputs/apk/debug/app-debug.apk') │                                          │
+│ │           no_update = False                                                                                                         │                                          │
+│ │             options = {'device_or_avd': None, 'extra_emulator_args': None, 'shutdown_on_exit': False}                               │                                          │
+│ │         passthrough = []                                                                                                            │                                          │
+│ │                self = <briefcase.platforms.android.gradle.GradleRunCommand object at 0x0000015EA41ED780>                            │                                          │
+│ │               state = None                                                                                                          │                                          │
+│ │       template_file = WindowsPath('D:/python/app/youtdolw/build/youtdolw/android/gradle')                                           │                                          │
+│ │           test_mode = False                                                                                                         │                                          │
+│ │              update = False                                                                                                         │                                          │
+│ │ update_requirements = False                                                                                                         │                                          │
+│ │    update_resources = False                                                                                                         │                                          │
+│ │      update_support = False                                                                                                         │                                          │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                          │
+│                                                                                                                                                                                  │
+│ D:\python\app\venv\lib\site-packages\briefcase\platforms\android\gradle.py:280 in run_app                                                                                        │
+│                                                                                                                                                                                  │
+│   277 │   │   :param extra_emulator_args: Any additional arguments to pass to the emulator.                                                                                      │
+│   278 │   │   :param shutdown_on_exit: Should the emulator be shut down on exit?                                                                                                 │
+│   279 │   │   """                                                                                                                                                                │
+│ ❱ 280 │   │   device, name, avd = self.tools.android_sdk.select_target_device(device_or_avd)                                                                                     │
+│   281 │   │                                                                                                                                                                      │
+│   282 │   │   # If there's no device ID, that means the emulator isn't running.                                                                                                  │
+│   283 │   │   # If there's no AVD either, it means the user has chosen to create                                                                                                 │
+│                                                                                                                                                                                  │
+│ ╭───────────────────────────────────────────────── locals ─────────────────────────────────────────────────╮                                                                     │
+│ │                 app = <com.example.youtdolw v0.0.1 AppConfig>                                            │                                                                     │
+│ │       device_or_avd = None                                                                               │                                                                     │
+│ │ extra_emulator_args = None                                                                               │                                                                     │
+│ │              kwargs = {}                                                                                 │                                                                     │
+│ │         passthrough = []                                                                                 │                                                                     │
+│ │                self = <briefcase.platforms.android.gradle.GradleRunCommand object at 0x0000015EA41ED780> │                                                                     │
+│ │    shutdown_on_exit = False                                                                              │                                                                     │
+│ │           test_mode = False                                                                              │                                                                     │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                     │
+│                                                                                                                                                                                  │
+│ D:\python\app\venv\lib\site-packages\briefcase\integrations\android_sdk.py:1049 in select_target_device                                                                          │
+│                                                                                                                                                                                  │
+│   1046 │   │   │   details = running_devices[choice]                                                                                                                             │
+│   1047 │   │   │   if not details["authorized"]:                                                                                                                                 │
+│   1048 │   │   │   │   # An unauthorized physical device                                                                                                                         │
+│ ❱ 1049 │   │   │   │   raise AndroidDeviceNotAuthorized(choice)                                                                                                                  │
+│   1050 │   │   │                                                                                                                                                                 │
+│   1051 │   │   │   # Return the device ID and name.                                                                                                                              │
+│   1052 │   │   │   device = choice                                                                                                                                               │
+│                                                                                                                                                                                  │
+│ ╭───────────────────────────────────────────────────── locals ──────────────────────────────────────────────────────╮                                                            │
+│ │             avd = 'beePhone'                                                                                      │                                                            │
+│ │          choice = 'emulator-5554'                                                                                 │                                                            │
+│ │         choices = [('emulator-5554', '@beePhone (running emulator)'), (None, 'Create a new Android emulator')]    │                                                            │
+│ │               d = 'emulator-5554'                                                                                 │                                                            │
+│ │         details = {'name': 'Unknown device (offline)', 'authorized': False, 'avd': 'beePhone'}                    │                                                            │
+│ │  device_choices = {'emulator-5554': '@beePhone (running emulator)', '@beePhone': '@beePhone (running emulator)'}  │                                                            │
+│ │   device_or_avd = None                                                                                            │                                                            │
+│ │       full_name = '@beePhone (running emulator)'                                                                  │                                                            │
+│ │            name = 'Unknown device (offline)'                                                                      │                                                            │
+│ │    running_avds = {'beePhone': 'emulator-5554'}                                                                   │                                                            │
+│ │ running_devices = {'emulator-5554': {'name': 'Unknown device (offline)', 'authorized': False, 'avd': 'beePhone'}} │                                                            │
+│ │            self = <briefcase.integrations.android_sdk.AndroidSDK object at 0x0000015EA7454AC0>                    │                                                            │
+│ ╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                            │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+AndroidDeviceNotAuthorized: 
+The device you have selected (emulator-5554) has not had developer options and
+USB debugging enabled. These must be enabled before a device can be used  as a
+target for deployment. For details on how to enable Developer Options, visit:
+
+    https://developer.android.com/studio/debug/dev-options#enable
+
+Once you have enabled these options on your device, you will be able to select
+this device as a deployment target.
+
+
+                                                                                                                                                                      console.py:311
+           >>> Extra information:                                                                                                                                     console.py:312
+                                                                                                                                                                   subprocess.py:711
+           >>> Running Command:                                                                                                                                    subprocess.py:712
+           >>>     'C:\Users\Yepo\AppData\Local\BeeWare\briefcase\Cache\tools\android_sdk\cmdline-tools\9.0\bin\sdkmanager.bat' --list_installed                   subprocess.py:713
+           >>> Working Directory:                                                                                                                                  subprocess.py:720
+           >>>     D:\python\app\youtdolw                                                                                                                          subprocess.py:721
+           >>> Environment Overrides:                                                                                                                              subprocess.py:730
+           >>>     ANDROID_HOME=C:\Users\Yepo\AppData\Local\BeeWare\briefcase\Cache\tools\android_sdk                                                              subprocess.py:732
+           >>>     ANDROID_SDK_ROOT=C:\Users\Yepo\AppData\Local\BeeWare\briefcase\Cache\tools\android_sdk                                                          subprocess.py:732
+           >>>     JAVA_HOME=C:\Users\Yepo\AppData\Local\BeeWare\briefcase\Cache\tools\java17                                                                      subprocess.py:732
+[15:52:26] >>> Command Output:                                                                                                                                     subprocess.py:737
+           >>>     Loading package information...                                                                                                                  subprocess.py:739
+           >>>     Loading local repository...                                                                                                                     subprocess.py:739
+           >>>     [=========                              ] 25% Loading local repository...                                                                       subprocess.py:739
+           >>>     [=========                              ] 25% Fetch remote repository...                                                                        subprocess.py:739
+           >>>     [=======================================] 100% Fetch remote repository...                                                                       subprocess.py:739
+           >>>                                                                                                                                                     subprocess.py:739
+           >>>     Installed packages:                                                                                                                             subprocess.py:739
+           >>>       Path                                    | Version | Description                    | Location                                                 subprocess.py:739
+           >>>       -------                                 | ------- | -------                        | -------                                                  subprocess.py:739
+           >>>       build-tools;30.0.3                      | 30.0.3  | Android SDK Build-Tools 30.0.3 | build-tools\30.0.3                                       subprocess.py:739
+           >>>       emulator                                | 33.1.24 | Android Emulator               | emulator                                                 subprocess.py:739
+           >>>       platform-tools                          | 34.0.5  | Android SDK Platform-Tools     | platform-tools                                           subprocess.py:739
+           >>>       platforms;android-33                    | 3       | Android SDK Platform 33        | platforms\android-33                                     subprocess.py:739
+           >>>       system-images;android-31;default;x86_64 | 5       | Intel x86_64 Atom System Image | system-images\android-31\default\x86_64                  subprocess.py:739
+           >>>                                                                                                                                                     subprocess.py:739
+           >>> Return code: 0                                                                                                                                      subprocess.py:748
